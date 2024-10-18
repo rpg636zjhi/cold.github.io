@@ -64,7 +64,7 @@ window.addEventListener(
         timeout: 2500,
         icon: false,
         title: hello,
-        message: "欢迎来到我的主页",
+        message: "欢迎来到我的主页qwq",
       });
     }, 800);
 
@@ -345,7 +345,7 @@ for (let day of days) {
       "<style>html{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);_filter:none}</style>"
     );
     $("#change").html("Silence&nbsp;in&nbsp;silence");
-    $("#change1").html("今天是中国国家纪念日，全站已切换为黑白模式");
+    $("#change1").html("今天是中国 国家纪念日，全站已切换为黑白模式");
     window.addEventListener(
       "load",
       function () {
@@ -353,7 +353,7 @@ for (let day of days) {
           iziToast.show({
             timeout: 14000,
             icon: "fa-solid fa-clock",
-            message: "今天是中国国家纪念日",
+            message: "今天是中国 国家纪念日",
           });
         }, 3800);
       },
@@ -373,7 +373,7 @@ $("#switchmore").on("click", function () {
   } else {
     $("#container").attr("class", "container");
     $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个不正经的Up");
+    $("#change1").html("V我50awa（");
   }
 });
 
@@ -477,7 +477,7 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `;
-let title1 = "無名の主页";
+let title1 = "rpgの主页";
 let title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
