@@ -311,13 +311,27 @@ $("#bilibili")
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
   });
-$("#telegram")
+$("#afdian")
   .mouseover(function () {
-    $("#link-text").html("你懂的 ~");
+    $("#link-text").html("afdian ~");
   })
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
   });
+  
+  $("#youtube")
+  .mouseover(function () {
+    $("#link-text").html("youtube ~");
+  })
+  
+  $("#discord")
+  .mouseover(function () {
+    $("#link-text").html("discord ~");
+  })
+  .mouseout(function () {
+    $("#link-text").html("通过这里联系我");
+  });
+  
 
 //自动变灰
 let myDate = new Date();
